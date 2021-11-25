@@ -12,7 +12,7 @@ At first, I tried to come up with the following recurrence by making the followi
 
 
 If the first flag is red and second flag is white ... then it is like a sequence of length(n - 1) starting at second position.
-If the first flag is blue and second flag is blue, third flag is forced to be white, then it is like a sequence of length (n - 2) starting at third position.
+If the first flag is red and second flag is blue, third flag is forced to be white, then it is like a sequence of length (n - 2) starting at third position.
 
 f(i) = f(i - 1) + f(i - 2)
 
